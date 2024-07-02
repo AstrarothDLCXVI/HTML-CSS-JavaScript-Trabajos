@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulario</title>
+</head>
+<body>
+    
+    <div class="cuerpo">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            
+            
+                <form action="" class="formulario1">
+                    <p><label class="label1" for="">DNI: </label><input type="text" name="DNI">-<input type="text" style="width: 20px;"></p>
+                    <p><label class="label1" for="">Nombre </label><input type="text" name="Nombre"></p>
+                    <p><label class="label1" for="">Apellidos: </label><input type="text" name="Apellidos" style="width: 750px;"></p>
+                    <p><label class="label1" for="">Email: </label><input type="text" name="Email"></p>
+                </form>
+
+            <div class="sexo">
+                <p>Sexo:</p>
+                <div>
+                    <label><input id="Hombre" type="radio" name="Hombre-Mujer" value="Hombre" checked>Hombre</label>
+                <br>    
+                    <label><input id="Mujer" type="radio" name="Hombre-Mujer" value="Mujer">Mujer</label>
+                </div>
+            </div>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Direccion</legend>
+
+            <form action="" class="formulario2">
+                <p><label class="label1" for="">Calle/Avenida: </label><input type="text" name="Calle/Avenida" style="width: 900px;"></p>
+                <p><label class="label1" for="">Poblacion: </label><input type="text" name="Poblacion" style="width: 600px;">
+                    <label for="">Provincia: <select name="Provincia" ></p>
+                        <option value="Hermano">Hermano to resto</option>
+                        <option value="Quillo">Quillo pisha mas alante</option>
+                        <option value="jesuscristoSuperStar">jesuscristoSuperStar</option>
+                        <option value="Mordor">Mordor</option>
+                        <option value="Howarts">Howarts</option>
+                        <option value="en">En mi casa</option>
+                    </select> 
+                </label>
+            </form>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Practica en grupo</legend>
+            <form action="" class="formulario3">
+                <p class="archivo"><label class="label1" for="">Archivo: </label><input type="text"><label for=""><button>browser</button></label></p>
+                <p><label for=""><input type="checkbox" name="comprimido">Archivo comprimido</label><label for=""><input type="checkbox" name="encriptado">Archivo encriptado</label></p>
+                <div style="float: left;">
+                    <p><label for="">Descripcion de <br><span style="float: right;">la practica</span></label></p>
+                </div>
+                <div>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                
+            </form>
+
+
+        </fieldset>
+    
+
+
+
+    </div>
+
+    <div style="text-align: center;">
+        <button>
+            enviar
+        </button>
+    </div>
+
+
+</body>
+</html>

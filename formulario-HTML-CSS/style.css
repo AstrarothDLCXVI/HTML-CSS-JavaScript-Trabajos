@@ -1,0 +1,41 @@
+.cuerpo{
+    background-color: blanchedalmond;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+fieldset{
+    border-color: black;
+}
+
+.formulario1{
+    float: left;
+    display: block;
+    padding: auto;
+}
+.formulario2{
+    display: block;
+    padding: auto;
+}
+
+.formulario3{
+    display: block;
+    padding: auto;
+}
+
+.label1{
+    display: inline-block;
+    width: 8%
+}
+
+.archivo{
+    padding-left: 3%;
+    padding-right: 30%;
+}
+
+
+
+.sexo{
+    float: right;
+}
