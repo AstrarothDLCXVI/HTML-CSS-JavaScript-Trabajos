@@ -1,0 +1,38 @@
+*{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 90px;
+}
+
+.menu{
+    overflow: hidden;
+}
+
+.opcion{
+    float: left;
+    padding: 14px 16px;
+    font-size: 20px;
+}
+
+
+label{
+    font-size: 30px;
+}
+
+input{
+    font-size: 40px;
+    background-color: white;
+    color: black;
+}
+
+
+button{
+    font-size: 40px;
+    width: 200px;
+    background-color: darkcyan;
+}
+
