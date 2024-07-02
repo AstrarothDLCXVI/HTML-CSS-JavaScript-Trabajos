@@ -1,0 +1,48 @@
+.cabeza{
+    background-image: url(imagenes/cabecera.jpg);
+    display: block;
+    background-position: absolute;
+    background-size: 100% 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+
+}
+
+h1{
+    padding: 10%;
+    text-align: center;
+    color: black;
+    font-size: 400%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cuerpo{
+    padding: 5%;
+    background-image: url(imagenes/background.jpg);
+    text-align: center;
+}
+
+hr{
+    color: red;
+    height: 10px;
+    background-color: rgb(255, 0, 0);
+}
+
+p{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    background-color: blueviolet;
+    font-weight:bold;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+a{
+    color: aliceblue;
+    text-decoration:none
+}
+
+a:hover{
+    color: chocolate;
+}
