@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    transition: all 0.9s;
+}
+body{
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(imagenes/escenario2.webp);
+}
+
+.titulo{
+    font-size: 39px;
+}
+
+.tablero{
+    width: 50%;
+    height: 80%;
+}
+.areaCarta{
+    display: inline-block;
+    margin: 20px;
+}
+.areaCarta, .carta, .cara{
+    width: 120px;
+    height: 180px;
+    min-width: 80px;
+    cursor: pointer;
+}
+
+.carta{
+    position: relative;
+    transform-style: preserve-3d;
+    animation: iniciar 3s;
+}
+.cara{
+    position: absolute;
+    backface-visibility: hidden;
+    background-image: url(imagenes/back.png);
+    background-size: cover;     
+    background-position: center; 
+}
+
+.rotacion{
+    transform: rotateY(180deg);
+}
+
+.rotacion img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 5px;
+}
+.back img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.juego{
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 150px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: crimson;
+}
