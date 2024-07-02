@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 150%;
+}
+
+.calculadora{
+    margin: 5%;
+    margin-left: 30%;
+    background-color: gray;
+    margin-right: 30%;
+    border-radius: 3%;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgb(50, 47, 47);
+    color: white;
+    border-radius: 20%;
+    border-collapse: initial;
+    border-color: gray;
+}
+
+.cero{
+    width: 460px;
+    height: 50px;
+}
+
+.delete{
+    color: rgb(221, 63, 63);
+}
+
+.resultado{
+    background-color: rgb(43, 172, 43);
+}
+
+.operacion{
+    color: rgb(45, 160, 45);
+}
+
+input {
+    max-width: 590px;
+    width: 590px;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 70px;
+    color: white;
+    background-color: rgb(50, 47, 47);
+    border-radius: 20%;
+    border-collapse: initial;
+    border-color: gray;
+}

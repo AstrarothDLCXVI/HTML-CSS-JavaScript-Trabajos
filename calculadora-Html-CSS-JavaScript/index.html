@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="titulo">
+        <h1>Calculadora Lenguaje de Marcas</h1>
+        <h3>José Miguel Rodríguez Marín</h3>
+    </div>
+
+<main class="calculadora">
+    <div>
+        <div>
+            <p style="text-align: center; font-size: 200%; color: rgb(184, 55, 55);">Calculadora 3.0</p>
+        </div>
+        <input type="text" id="calculo" disabled>
+        <div>
+            <button class="delete"  onclick="borrarTodo()">C</button>
+            <button class="delete"  onclick="borrar()">CE</button>
+            <button class="operacion" onclick="agregar('/')">/</button>
+            <button class="operacion"  onclick="agregar('*')">*</button>
+        </div>
+        <br>
+        <div>
+            <button  onclick="agregar('1')">1</button>
+            <button  onclick="agregar('2')">2</button>
+            <button  onclick="agregar('3')">3</button>
+            <button class="operacion" onclick="agregar('+')">+</button>
+        </div>
+        <br>
+        <div>
+            <button onclick="agregar('4')">4</button>
+            <button onclick="agregar('5')">5</button>
+            <button onclick="agregar('6')">6</button>
+            <button class="operacion" onclick="agregar('-')">-</button>
+        </div>
+        <br>
+        <div>
+            <button  onclick="agregar('7')">7</button>
+            <button  onclick="agregar('8')">8</button>
+            <button  onclick="agregar('9')">9</button>
+            <button  onclick="agregar('.')">.</button>
+        </div>
+        <br>
+        <div>    
+            <button class="cero" onclick="agregar('0')">0</button>
+            <button class="resultado" onclick="calcular()">=</button>
+        </div>
+    </div>
+</main>
+
+    <script src="script.js"></script>
+</body>
+</html>
